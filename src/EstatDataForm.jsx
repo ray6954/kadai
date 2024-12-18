@@ -23,11 +23,15 @@ export const EstatDataForm = () => {
     const searchTo = "";
     const file = form.get("csvFile");
     try {
-      const csv = await readFileAsText(file);
-      const arr = mapCSVToArray(csv);
-      const condition = { from: searchFrom, to: searchTo, csv: arr };
-      getTableData(condition);
-      setStatus({ screen: 'searched' });
+      if((!file) || file.size === 0) { 
+        alert('CSVファイルを選択してください');
+      } else {
+        const csv = await readFileAsText(file);
+        const arr = mapCSVToArray(csv);
+        const condition = { from: searchFrom, to: searchTo, csv: arr };
+        getTableData(condition);
+        setStatus({ screen: 'searched' });
+      }
     } catch (error) {
       alert(error);
     }
@@ -50,7 +54,7 @@ export const EstatDataForm = () => {
     <>
       <div className="search-form">
         <form onSubmit={handleSubmit}>
-          <span>※CSVファイルは必須</span>
+          <span>※CSVファイルは必須<br/>　表示に時間がかかります......</span>
           {/*
           <div>
             <input type="text" name="searchFrom" defaultValue="" placeholder="From(西暦YYYY)" />
