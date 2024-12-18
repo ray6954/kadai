@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kadai/static/css/main.98e264b8.css",
+    "main.js": "/kadai/static/js/main.0880eb3b.js",
+    "index.html": "/kadai/index.html",
+    "main.98e264b8.css.map": "/kadai/static/css/main.98e264b8.css.map",
+    "main.0880eb3b.js.map": "/kadai/static/js/main.0880eb3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.98e264b8.css",
+    "static/js/main.0880eb3b.js"
+  ]
+}
