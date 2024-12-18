@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  /* 水平・垂直方向の中央揃え */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/** 検索条件 */
+.search-form {
+  margin: 10px;
+}
+
+.search-form input{
+  margin-bottom: 5px;
+}
+
+/** 検索結果 */
+th,td {
+  border: solid 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+}
+
+table {
+  border-collapse:  collapse;
+}
+
+td {
+  text-align: right; 
+}
+
+.row-header {
+  text-align: center;
+}
+
+.group-1 {
+  background-color: darksalmon;
+}
+.group-2 {
+  background-color: khaki;
+}
+.group-3 {
+  background-color: lightgreen;
+}
