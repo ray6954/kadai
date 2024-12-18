@@ -6,7 +6,7 @@
  */
 export function callEstat(from, to) {
     console.log("callEstat");
-    const baseUrl = 'http://api.e-stat.go.jp/rest/3.0/app/json/getStatsData?';
+    const baseUrl = 'https://api.e-stat.go.jp/rest/3.0/app/json/getStatsData?';
     const p = {
         appId: "9a4278dc6ce2ff0f4105fe03b9233b33ec5686ad",
         lang: "J",
