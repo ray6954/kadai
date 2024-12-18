@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kadai/static/css/main.98e264b8.css",
-    "main.js": "/kadai/static/js/main.e0575696.js",
+    "main.js": "/kadai/static/js/main.c72eba67.js",
     "index.html": "/kadai/index.html",
     "main.98e264b8.css.map": "/kadai/static/css/main.98e264b8.css.map",
-    "main.e0575696.js.map": "/kadai/static/js/main.e0575696.js.map"
+    "main.c72eba67.js.map": "/kadai/static/js/main.c72eba67.js.map"
   },
   "entrypoints": [
     "static/css/main.98e264b8.css",
-    "static/js/main.e0575696.js"
+    "static/js/main.c72eba67.js"
   ]
 }
